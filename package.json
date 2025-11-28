@@ -1,0 +1,22 @@
+{
+  "name": "spark",
+  "displayName": "the miau cave <3",
+  "description": "where you can code until you hit a wall",
+  "version": "0.0.1",
+  "publisher": "abrilalmeida",
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "the miau cave <3",
+        "uiTheme": "vs-dark",
+        "path": "./themes/the miau cave 3-color-theme.json"
+      }
+    ]
+  }
+}
