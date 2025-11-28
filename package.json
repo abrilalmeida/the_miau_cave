@@ -1,9 +1,18 @@
 {
-  "name": "spark",
+  "name": "the-miau-cave-3",
   "displayName": "the miau cave <3",
   "description": "where you can code until you hit a wall",
   "version": "0.0.1",
   "publisher": "abrilalmeida",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abrilalmeida/the_miau_cave"
+  },
+  "keywords": [
+    "aesthetic",
+    "theme",
+    "cave"
+  ],
   "engines": {
     "vscode": "^1.106.1"
   },
