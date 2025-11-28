@@ -23,4 +23,26 @@ I wanted to create a vscode theme to give people a little taste of what the miau
 
 9. go to the azure devops page, sign up or log in. if you're signing up exit the page once you see the page where you have to enter your address then go to the devops log in page, and log in.
 
-10. ok im tired.....sorry
+10. go to the user settings and create a personal access token, give it a name, select 'all accessible organizations' on the drop down menu, click on expiration and select custom defined, scroll to the bottom and click on 'show all scopes', find marketplace and select 'manage'
+
+11. click on create, copy the token and save for later.
+
+12. go to http://marketplace.visualstudio.com/manage , click on new extension, enter your publisher name and id (the id will be the name without spaces) and then click on create.
+
+13. go back to vscode, open your package.json file and bellow "version":..., add 
+
+"publisher": "your publisher id",
+"repository": {
+    "type": "git",
+    "url": "your_github_repo_url"
+}
+
+14. write your README (yes, do it!)
+
+15. in vscode open a terminal and run 'npm install -g vsce', then 'vsce login your publisher id', then paste your access token
+
+16. then run 'vsce package', then 'vsce publish'
+
+17. now if you go back to the vs marketplace page you'll see an extension with your theme name was created! just wait a couple of minutes for it to get verified and then go to vscode again to search for your theme in the extensions, click install and you are done!!!!!!
+
+### Hope this was somewhat helpful. have fun!!
